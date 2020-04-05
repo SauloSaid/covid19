@@ -10,9 +10,8 @@ O arquivo CSV que criei (e o código que o gerou, em R) possue algumas vantagens
 - Traz o total de dias desde o primeiro caso para cada data
 - Traz o total de dias desde a primeira morte para cada data
 
-Os dados fornecidos pela refereida universidade estão no nível do estado/província. Entretanto, para muitos países náo há quebra por província (como é o caso do *Brasi*), mas apenas o agregado nacional. É importante salientar que o total de casos confirmados é sabaidamente um dado falho, na medida que diferentes países tem diferentes estratégias de testagens. Consequentemente, só calcule a taxa de mortalidade de países tendo total ciência das graves limitações desses dados. A estatística de mortes, embora também possa contem errros de medição, é bem mais confiável. 
+Os dados fornecidos pela refereida universidade estão no nível do estado/província. Entretanto, para muitos países náo há quebra por província (como é o caso do *Brasi*), mas apenas o agregado nacional. Seria válido um esfor;o de brasileiros para levantar esses dados e fornecê-los aos pesquisadores de Johns Hopkins. 
+
+É importante salientar que o total de *casos confirmados* é sabidamente falho, na medida que diferentes países tem diferentes capacidades de testagens. Consequentemente, só calcule a taxa de mortalidade de países tendo total ciência das graves limitações desses dados. A estatística de mortes, embora também possa contem errros de medição, é bem mais confiável. 
 
 Favor referenciar o meu [linkedin](https://www.linkedin.com/in/saulo-said-b43356a1/) quando utilizar os dados . 
-
-
-Dados sobre o coronavirus
