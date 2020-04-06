@@ -1,9 +1,8 @@
 # Extrair dados sobre COVID da Universidade Johns Hopkins
 #### Atualizado em:
-```{r}
+```{r, echo=FALSE}
 library(lubridate)
-print(today())
-
+today()
 ```
 ## Transformando dados e calculando campos importantes para análise
 A Universidade de Johns Hopkins mantem um dos mais famosos levantamentos sobre a epidemia causada pelo Corona Vírus. Eles disponibilizam esses dados em um repositório do[github](https://github.com/CSSEGISandData/COVID-19).
