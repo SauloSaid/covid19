@@ -19,15 +19,15 @@ Entretanto, o formato dos dados não é dos mais adequados para análise. Cada d
 
 O arquivo CSV que criei (e o código que o gerou, em R) possue algumas vantagens em relação ao disponibilizado pela U. J. Hopkins:
 
-+ Base de dados em formato wide
++ Base de dados em formato long
 
 + Traz o número de **novos casos** e **novas mortes**
 
-+ Traz o total de dias desde o primeiro caso para cada data
++ Traz o total de dias desde o **primeiro caso** para cada data
 
-+ Traz o total de dias desde a primeira morte para cada data
++ Traz o total de dias desde a **primeira morte** para cada data
 
-Os dados fornecidos pela refereida universidade estão no nível do estado/província. Entretanto, para muitos países náo há quebra por província (como é o caso do *Brasi*), mas apenas o agregado nacional. Seria válido um esfor;o de brasileiros para levantar esses dados e fornecê-los aos pesquisadores de Johns Hopkins. 
+Os dados fornecidos pela refereida universidade estão no nível do estado/província. Entretanto, para muitos países náo há quebra por província (como é o caso do *Brasi*), mas apenas o agregado nacional. Seria válido um esforço de brasileiros para levantar esses dados e fornecê-los aos pesquisadores de Johns Hopkins. 
 
 É importante salientar que o total de *casos confirmados* é sabidamente falho, na medida que diferentes países tem diferentes capacidades de testagens. Consequentemente, só calcule a taxa de mortalidade de países tendo total ciência das graves limitações desses dados. A estatística de mortes, embora também possa contem errros de medição, é bem mais confiável. 
 
