@@ -1,9 +1,9 @@
 # Extrair dados sobre COVID da Universidade Johns Hopkins
 #### Atualizado em:
-```{r, echo=FALSE}
-library(lubridate)
-today()
+```{r echo=FALSE}
+print(Sys.Date())
 ```
+
 ## Transformando dados e calculando campos importantes para análise
 A Universidade de Johns Hopkins mantem um dos mais famosos levantamentos sobre a epidemia causada pelo Corona Vírus. Eles disponibilizam esses dados em um repositório do[github](https://github.com/CSSEGISandData/COVID-19).
 
@@ -19,4 +19,4 @@ Os dados fornecidos pela refereida universidade estão no nível do estado/prov�
 
 É importante salientar que o total de *casos confirmados* é sabidamente falho, na medida que diferentes países tem diferentes capacidades de testagens. Consequentemente, só calcule a taxa de mortalidade de países tendo total ciência das graves limitações desses dados. A estatística de mortes, embora também possa contem errros de medição, é bem mais confiável. 
 
-Favor referenciar o meu [linkedin](https://www.linkedin.com/in/saulo-said-b43356a1/) quando utilizar os dados . 
+Favor referenciar o meu [linkedin](https://www.linkedin.com/in/saulo-said-b43356a1/) quando utilizar os dados.
