@@ -121,7 +121,15 @@ banco <- banco %>% arrange(pais_regiao,estado_provincia, data_numero) %>%
   mutate(novas_mortes_provincia = mortes - lag(mortes),
          novos_casos_provincia = casos - lag(casos),
          n = row_number())
+
+
+
 # 9. EXPORTAR O ARQUIVO PARA O GITHUB
+filename = paste0("/Users/saulosaid/covid19/", 
+                  "Dados tratados sobre COVID-19 - Atualizado em ",
+                  today(),
+                  ".csv")
+
 write.csv2(x= banco,
-           file = "/Users/saulosaid/covid19/covid19.csv",
+           file = filename,
            row.names = F)
