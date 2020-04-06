@@ -1,3 +1,10 @@
+---
+output: github_document
+bibliography: "references.bib"
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # Extrair dados sobre COVID da Universidade Johns Hopkins
 #### Atualizado em:
 ```{r echo=FALSE}
