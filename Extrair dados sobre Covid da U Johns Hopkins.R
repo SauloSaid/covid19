@@ -16,10 +16,6 @@
 library(pacman)
 p_load(dplyr, rvest, tidyverse, reshape2, lubridate, zoo, Lahman)
 
-Run
-# jddjff
-git config --global user.email "saidsaulo@gmail.com"
-git config --global user.name "SauloSaid"
 
 
 # OBTER O PATH ARQUIVOS DE MORTES E CASOS CONFIRMADOS

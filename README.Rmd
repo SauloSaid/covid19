@@ -12,7 +12,7 @@ output:
 print(Sys.Date())
 ```
 
-## Transformando dados e calculando campos importantes para análise
+## Transformando dados e calculando  campos importantes para análise
 A Universidade de Johns Hopkins mantem um dos mais famosos levantamentos sobre a epidemia causada pelo Corona Vírus. Eles disponibilizam esses dados em um repositório do [github](https://github.com/CSSEGISandData/COVID-19).
 
 Entretanto, o formato dos dados não é dos mais adequados para análise. Cada data é uma nova coluna. Além disso, dados importantes náo estáo pré-calculados nessa base (o que é compreensível: é um repositório). 
