@@ -128,3 +128,31 @@ filename = paste0("/Users/saulosaid/covid19/",
 write.csv2(x= banco,
            file = filename,
            row.names = F)
+
+banco <- banco %>% arrange(pais_regiao,estado_provincia, data_numero) %>% 
+  group_by(estado_provincia, pais_regiao) %>% 
+  mutate(lag1_novos_casos = lag(novos_casos_provincia, 1),
+         lag2_novos_casos = lag(novos_casos_provincia, 2),
+         lag3_novos_casos = lag(novos_casos_provincia, 3),
+         lag4_novos_casos = lag(novos_casos_provincia, 4),
+         lag5_novos_casos = lag(novos_casos_provincia, 5),
+         lag6_novos_casos = lag(novos_casos_provincia, 6),
+         lag7_novos_casos = lag(novos_casos_provincia, 7),
+         lag8_novos_casos = lag(novos_casos_provincia, 8),
+         lag9_novos_casos = lag(novos_casos_provincia, 9),
+         lag10_novos_casos = lag(novos_casos_provincia, 10),
+         lag11_novos_casos = lag(novos_casos_provincia, 11),
+         lag12_novos_casos = lag(novos_casos_provincia, 12),
+         lag13_novos_casos = lag(novos_casos_provincia, 13),
+         lag14_novos_casos = lag(novos_casos_provincia, 14),
+         lag15_novos_casos = lag(novos_casos_provincia, 15),
+         lag16_novos_casos = lag(novos_casos_provincia, 16),
+         lag17_novos_casos = lag(novos_casos_provincia, 17),
+         lag18_novos_casos = lag(novos_casos_provincia, 18),
+         lag19_novos_casos = lag(novos_casos_provincia, 19),
+         lag20_novos_casos = lag(novos_casos_provincia, 20),
+         lag21_novos_casos = lag(novos_casos_provincia, 21))
+
+
+
+
